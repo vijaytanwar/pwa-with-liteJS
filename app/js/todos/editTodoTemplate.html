@@ -1,0 +1,27 @@
+<div class="edit-todo modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>{{name}}</h4>
+        <form name="editTodoForm">
+            <div class="row">
+                <div class="input-field col s12">
+                    <label for="title">Title</label>
+                    <input name="title" type="text" value="{{title}}" class="validate" />
+                    <span class="error">Title required!</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <label for="description">Description</label>
+                    <textarea name="description" class="validate">{{description}}</textarea>
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button class="save">Save</button>
+        <button class="cancel">Cancel</button>
+    </div>
+</div>

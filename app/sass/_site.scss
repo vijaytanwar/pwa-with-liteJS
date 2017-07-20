@@ -1,0 +1,22 @@
+body {
+    overflow: hidden;
+}
+
+.container {
+    height: 96vh;
+    overflow-y: scroll;
+    margin-top: 57px;
+    background-color: slategrey;
+    padding: 14px;
+    padding-top: 1px;
+}
+
+.error {
+    color: red;
+    display: none;
+    margin: 4px 0;
+    font-size: .9rem;
+    &.show {
+        display: block;
+    }
+}

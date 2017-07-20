@@ -1,0 +1,30 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "Starter application to learn how basic progressive web application can be created",
+  "main": "index.html",
+  "scripts": {
+    "test": "http-server"
+  },
+  "keywords": [
+    "progressive",
+    "web",
+    "app"
+  ],
+  "author": "tamarvijay@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-handlebars": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "materialize-css": "^0.99.0",
+    "precompile-handlebars": "^1.0.5",
+    "sw-precache": "^5.2.0"
+  }
+}

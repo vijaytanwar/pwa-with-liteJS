@@ -1,0 +1,65 @@
+h2 {
+    padding: 5px 0 10px 0;
+    color: white;
+}
+
+button {
+    margin: 20px 5px;
+}
+
+.todo-list {
+    td {
+        height: 70px;
+        padding: 10px;
+        border: none;
+        text-align: left;
+        &.action {
+            padding: 0px;
+            width: 40px;
+            &:first-child {
+                width: 20px;
+                padding: 20px 0px 14px 20px;
+            }
+        }
+    }
+    tr {
+        &:nth-child(odd) {
+            background-color: grey;
+            border-bottom: 2px solid silver;
+        }
+        &:nth-child(even) {
+            background-color: silver;
+            border-bottom: 2px solid silver;
+        }
+        &.done {
+            opacity: 0.8;
+            background-color: antiquewhite;
+            text-decoration: line-through;
+        }
+    }
+    .title {
+        margin: 6px;
+    }
+    .description {
+        margin: 6px;
+    }
+}
+
+.edit-todo {
+    .row {
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        margin: 10px 0;
+    }
+    input,
+    textarea {
+        border: 1px solid mediumslateblue;
+        padding: 5px;
+        width: 100%;
+        &:active {
+            border-bottom: 2px solid slategray;
+        }
+    }
+}
